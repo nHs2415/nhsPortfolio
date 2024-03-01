@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin:1rem;
+    justify-content: flex-end;
+    list-style-type: none;
+    
+}
+
+ul li {
+    padding: 2rem;
+    
+    
+}
+
+a:hover{
+    color:rgb(90, 78, 78);
+    transition:cubic-bezier(0.23, 1, 0.320, 1);
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vh;
+}
